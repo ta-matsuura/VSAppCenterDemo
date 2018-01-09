@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C15F3FE52004D28800B3F308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F3FE42004D28800B3F308 /* AppDelegate.swift */; };
+		C15F3FE72004D28800B3F308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F3FE62004D28800B3F308 /* ViewController.swift */; };
+		C15F3FEA2004D28800B3F308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F3FE82004D28800B3F308 /* Main.storyboard */; };
+		C15F3FEC2004D28800B3F308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15F3FEB2004D28800B3F308 /* Assets.xcassets */; };
+		C15F3FEF2004D28800B3F308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F3FED2004D28800B3F308 /* LaunchScreen.storyboard */; };
+		C15F3FFA2004D28800B3F308 /* VSAppCenterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F3FF92004D28800B3F308 /* VSAppCenterDemoTests.swift */; };
+		C15F40052004D28800B3F308 /* VSAppCenterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F40042004D28800B3F308 /* VSAppCenterDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C15F3FF62004D28800B3F308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C15F3FD92004D28800B3F308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C15F3FE02004D28800B3F308;
+			remoteInfo = VSAppCenterDemo;
+		};
+		C15F40012004D28800B3F308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C15F3FD92004D28800B3F308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C15F3FE02004D28800B3F308;
+			remoteInfo = VSAppCenterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C15F3FE12004D28800B3F308 /* VSAppCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSAppCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15F3FE42004D28800B3F308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C15F3FE62004D28800B3F308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C15F3FE92004D28800B3F308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C15F3FEB2004D28800B3F308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C15F3FEE2004D28800B3F308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C15F3FF02004D28800B3F308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15F3FF52004D28800B3F308 /* VSAppCenterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSAppCenterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15F3FF92004D28800B3F308 /* VSAppCenterDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSAppCenterDemoTests.swift; sourceTree = "<group>"; };
+		C15F3FFB2004D28800B3F308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15F40002004D28800B3F308 /* VSAppCenterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSAppCenterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15F40042004D28800B3F308 /* VSAppCenterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSAppCenterDemoUITests.swift; sourceTree = "<group>"; };
+		C15F40062004D28800B3F308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C15F3FDE2004D28800B3F308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F3FF22004D28800B3F308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F3FFD2004D28800B3F308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C15F3FD82004D28800B3F308 = {
+			isa = PBXGroup;
+			children = (
+				C15F3FE32004D28800B3F308 /* VSAppCenterDemo */,
+				C15F3FF82004D28800B3F308 /* VSAppCenterDemoTests */,
+				C15F40032004D28800B3F308 /* VSAppCenterDemoUITests */,
+				C15F3FE22004D28800B3F308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C15F3FE22004D28800B3F308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C15F3FE12004D28800B3F308 /* VSAppCenterDemo.app */,
+				C15F3FF52004D28800B3F308 /* VSAppCenterDemoTests.xctest */,
+				C15F40002004D28800B3F308 /* VSAppCenterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C15F3FE32004D28800B3F308 /* VSAppCenterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C15F3FE42004D28800B3F308 /* AppDelegate.swift */,
+				C15F3FE62004D28800B3F308 /* ViewController.swift */,
+				C15F3FE82004D28800B3F308 /* Main.storyboard */,
+				C15F3FEB2004D28800B3F308 /* Assets.xcassets */,
+				C15F3FED2004D28800B3F308 /* LaunchScreen.storyboard */,
+				C15F3FF02004D28800B3F308 /* Info.plist */,
+			);
+			path = VSAppCenterDemo;
+			sourceTree = "<group>";
+		};
+		C15F3FF82004D28800B3F308 /* VSAppCenterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C15F3FF92004D28800B3F308 /* VSAppCenterDemoTests.swift */,
+				C15F3FFB2004D28800B3F308 /* Info.plist */,
+			);
+			path = VSAppCenterDemoTests;
+			sourceTree = "<group>";
+		};
+		C15F40032004D28800B3F308 /* VSAppCenterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C15F40042004D28800B3F308 /* VSAppCenterDemoUITests.swift */,
+				C15F40062004D28800B3F308 /* Info.plist */,
+			);
+			path = VSAppCenterDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C15F3FE02004D28800B3F308 /* VSAppCenterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15F40092004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemo" */;
+			buildPhases = (
+				C15F3FDD2004D28800B3F308 /* Sources */,
+				C15F3FDE2004D28800B3F308 /* Frameworks */,
+				C15F3FDF2004D28800B3F308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSAppCenterDemo;
+			productName = VSAppCenterDemo;
+			productReference = C15F3FE12004D28800B3F308 /* VSAppCenterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C15F3FF42004D28800B3F308 /* VSAppCenterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15F400C2004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemoTests" */;
+			buildPhases = (
+				C15F3FF12004D28800B3F308 /* Sources */,
+				C15F3FF22004D28800B3F308 /* Frameworks */,
+				C15F3FF32004D28800B3F308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C15F3FF72004D28800B3F308 /* PBXTargetDependency */,
+			);
+			name = VSAppCenterDemoTests;
+			productName = VSAppCenterDemoTests;
+			productReference = C15F3FF52004D28800B3F308 /* VSAppCenterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C15F3FFF2004D28800B3F308 /* VSAppCenterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15F400F2004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemoUITests" */;
+			buildPhases = (
+				C15F3FFC2004D28800B3F308 /* Sources */,
+				C15F3FFD2004D28800B3F308 /* Frameworks */,
+				C15F3FFE2004D28800B3F308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C15F40022004D28800B3F308 /* PBXTargetDependency */,
+			);
+			name = VSAppCenterDemoUITests;
+			productName = VSAppCenterDemoUITests;
+			productReference = C15F40002004D28800B3F308 /* VSAppCenterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C15F3FD92004D28800B3F308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Taichi Matsuura";
+				TargetAttributes = {
+					C15F3FE02004D28800B3F308 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J5R9ERF744;
+						ProvisioningStyle = Automatic;
+					};
+					C15F3FF42004D28800B3F308 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J5R9ERF744;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C15F3FE02004D28800B3F308;
+					};
+					C15F3FFF2004D28800B3F308 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J5R9ERF744;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C15F3FE02004D28800B3F308;
+					};
+				};
+			};
+			buildConfigurationList = C15F3FDC2004D28800B3F308 /* Build configuration list for PBXProject "VSAppCenterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C15F3FD82004D28800B3F308;
+			productRefGroup = C15F3FE22004D28800B3F308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C15F3FE02004D28800B3F308 /* VSAppCenterDemo */,
+				C15F3FF42004D28800B3F308 /* VSAppCenterDemoTests */,
+				C15F3FFF2004D28800B3F308 /* VSAppCenterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C15F3FDF2004D28800B3F308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15F3FEF2004D28800B3F308 /* LaunchScreen.storyboard in Resources */,
+				C15F3FEC2004D28800B3F308 /* Assets.xcassets in Resources */,
+				C15F3FEA2004D28800B3F308 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F3FF32004D28800B3F308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F3FFE2004D28800B3F308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C15F3FDD2004D28800B3F308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15F3FE72004D28800B3F308 /* ViewController.swift in Sources */,
+				C15F3FE52004D28800B3F308 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F3FF12004D28800B3F308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15F3FFA2004D28800B3F308 /* VSAppCenterDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F3FFC2004D28800B3F308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15F40052004D28800B3F308 /* VSAppCenterDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C15F3FF72004D28800B3F308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C15F3FE02004D28800B3F308 /* VSAppCenterDemo */;
+			targetProxy = C15F3FF62004D28800B3F308 /* PBXContainerItemProxy */;
+		};
+		C15F40022004D28800B3F308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C15F3FE02004D28800B3F308 /* VSAppCenterDemo */;
+			targetProxy = C15F40012004D28800B3F308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C15F3FE82004D28800B3F308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C15F3FE92004D28800B3F308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C15F3FED2004D28800B3F308 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C15F3FEE2004D28800B3F308 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C15F40072004D28800B3F308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C15F40082004D28800B3F308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C15F400A2004D28800B3F308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5R9ERF744;
+				INFOPLIST_FILE = VSAppCenterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktec.VSAppCenterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C15F400B2004D28800B3F308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5R9ERF744;
+				INFOPLIST_FILE = VSAppCenterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktec.VSAppCenterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C15F400D2004D28800B3F308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J5R9ERF744;
+				INFOPLIST_FILE = VSAppCenterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktec.VSAppCenterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSAppCenterDemo.app/VSAppCenterDemo";
+			};
+			name = Debug;
+		};
+		C15F400E2004D28800B3F308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J5R9ERF744;
+				INFOPLIST_FILE = VSAppCenterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktec.VSAppCenterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSAppCenterDemo.app/VSAppCenterDemo";
+			};
+			name = Release;
+		};
+		C15F40102004D28800B3F308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J5R9ERF744;
+				INFOPLIST_FILE = VSAppCenterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktec.VSAppCenterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VSAppCenterDemo;
+			};
+			name = Debug;
+		};
+		C15F40112004D28800B3F308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J5R9ERF744;
+				INFOPLIST_FILE = VSAppCenterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktec.VSAppCenterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VSAppCenterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C15F3FDC2004D28800B3F308 /* Build configuration list for PBXProject "VSAppCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15F40072004D28800B3F308 /* Debug */,
+				C15F40082004D28800B3F308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15F40092004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15F400A2004D28800B3F308 /* Debug */,
+				C15F400B2004D28800B3F308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C15F400C2004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15F400D2004D28800B3F308 /* Debug */,
+				C15F400E2004D28800B3F308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C15F400F2004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15F40102004D28800B3F308 /* Debug */,
+				C15F40112004D28800B3F308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C15F3FD92004D28800B3F308 /* Project object */;
+}
