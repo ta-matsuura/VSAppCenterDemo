@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DDD4F3F300D53B4865C4927 /* Pods_VSAppCenterDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47808960D042AF93978B86FB /* Pods_VSAppCenterDemoUITests.framework */; };
+		15E61512A8AC166C4192D4D1 /* Pods_VSAppCenterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1AD8F57C55B70A986358CC /* Pods_VSAppCenterDemo.framework */; };
+		B959E461E8939E686A1D7F48 /* Pods_VSAppCenterDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6076B42BEC5C8B9638577E67 /* Pods_VSAppCenterDemoTests.framework */; };
 		C15F3FE52004D28800B3F308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F3FE42004D28800B3F308 /* AppDelegate.swift */; };
 		C15F3FE72004D28800B3F308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F3FE62004D28800B3F308 /* ViewController.swift */; };
 		C15F3FEA2004D28800B3F308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F3FE82004D28800B3F308 /* Main.storyboard */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47808960D042AF93978B86FB /* Pods_VSAppCenterDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSAppCenterDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6076B42BEC5C8B9638577E67 /* Pods_VSAppCenterDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSAppCenterDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10A1412F165550F04CDD71A /* Pods-VSAppCenterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAppCenterDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSAppCenterDemoUITests/Pods-VSAppCenterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B7E0045A9856F9EA100F25 /* Pods-VSAppCenterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAppCenterDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSAppCenterDemoTests/Pods-VSAppCenterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC9F4F95C2D71B524B420428 /* Pods-VSAppCenterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAppCenterDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAppCenterDemoUITests/Pods-VSAppCenterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C15F3FE12004D28800B3F308 /* VSAppCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSAppCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15F3FE42004D28800B3F308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C15F3FE62004D28800B3F308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		C15F40002004D28800B3F308 /* VSAppCenterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSAppCenterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15F40042004D28800B3F308 /* VSAppCenterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSAppCenterDemoUITests.swift; sourceTree = "<group>"; };
 		C15F40062004D28800B3F308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BBFE5EDA94EEF96FD38B87 /* Pods-VSAppCenterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAppCenterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAppCenterDemo/Pods-VSAppCenterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E57A621B70115167A184CCC0 /* Pods-VSAppCenterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAppCenterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSAppCenterDemo/Pods-VSAppCenterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EBFFDBC72D6A721CF95AB2B5 /* Pods-VSAppCenterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAppCenterDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAppCenterDemoTests/Pods-VSAppCenterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD1AD8F57C55B70A986358CC /* Pods_VSAppCenterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSAppCenterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E61512A8AC166C4192D4D1 /* Pods_VSAppCenterDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B959E461E8939E686A1D7F48 /* Pods_VSAppCenterDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDD4F3F300D53B4865C4927 /* Pods_VSAppCenterDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E1CC70BD432E4BF2FEFFB7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E57A621B70115167A184CCC0 /* Pods-VSAppCenterDemo.debug.xcconfig */,
+				C5BBFE5EDA94EEF96FD38B87 /* Pods-VSAppCenterDemo.release.xcconfig */,
+				A7B7E0045A9856F9EA100F25 /* Pods-VSAppCenterDemoTests.debug.xcconfig */,
+				EBFFDBC72D6A721CF95AB2B5 /* Pods-VSAppCenterDemoTests.release.xcconfig */,
+				A10A1412F165550F04CDD71A /* Pods-VSAppCenterDemoUITests.debug.xcconfig */,
+				AC9F4F95C2D71B524B420428 /* Pods-VSAppCenterDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D2E54BC79E1A75EAE8BF02E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD1AD8F57C55B70A986358CC /* Pods_VSAppCenterDemo.framework */,
+				6076B42BEC5C8B9638577E67 /* Pods_VSAppCenterDemoTests.framework */,
+				47808960D042AF93978B86FB /* Pods_VSAppCenterDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C15F3FD82004D28800B3F308 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				C15F3FF82004D28800B3F308 /* VSAppCenterDemoTests */,
 				C15F40032004D28800B3F308 /* VSAppCenterDemoUITests */,
 				C15F3FE22004D28800B3F308 /* Products */,
+				7E1CC70BD432E4BF2FEFFB7E /* Pods */,
+				9D2E54BC79E1A75EAE8BF02E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15F40092004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemo" */;
 			buildPhases = (
+				B1A010BAB1C63F01D7B4BADF /* [CP] Check Pods Manifest.lock */,
 				C15F3FDD2004D28800B3F308 /* Sources */,
 				C15F3FDE2004D28800B3F308 /* Frameworks */,
 				C15F3FDF2004D28800B3F308 /* Resources */,
+				7AD2ECC3DF9E340695F8C2FA /* [CP] Embed Pods Frameworks */,
+				1B2CE064749D287BCAE2E65E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15F400C2004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemoTests" */;
 			buildPhases = (
+				91DD790D71A4ADDACE238D20 /* [CP] Check Pods Manifest.lock */,
 				C15F3FF12004D28800B3F308 /* Sources */,
 				C15F3FF22004D28800B3F308 /* Frameworks */,
 				C15F3FF32004D28800B3F308 /* Resources */,
+				E36507B6AEC78405B7BDE4A8 /* [CP] Embed Pods Frameworks */,
+				5B8884B89DA8A651C78A4F09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15F400F2004D28800B3F308 /* Build configuration list for PBXNativeTarget "VSAppCenterDemoUITests" */;
 			buildPhases = (
+				5B237A764515E5D0399E2091 /* [CP] Check Pods Manifest.lock */,
 				C15F3FFC2004D28800B3F308 /* Sources */,
 				C15F3FFD2004D28800B3F308 /* Frameworks */,
 				C15F3FFE2004D28800B3F308 /* Resources */,
+				790C877DBCD83A6DE4AC2861 /* [CP] Embed Pods Frameworks */,
+				F216CC39373E21D5E7920805 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B2CE064749D287BCAE2E65E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSAppCenterDemo/Pods-VSAppCenterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B237A764515E5D0399E2091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B8884B89DA8A651C78A4F09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSAppCenterDemoTests/Pods-VSAppCenterDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		790C877DBCD83A6DE4AC2861 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSAppCenterDemoUITests/Pods-VSAppCenterDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD2ECC3DF9E340695F8C2FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSAppCenterDemo/Pods-VSAppCenterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91DD790D71A4ADDACE238D20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A010BAB1C63F01D7B4BADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E36507B6AEC78405B7BDE4A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSAppCenterDemoTests/Pods-VSAppCenterDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F216CC39373E21D5E7920805 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSAppCenterDemoUITests/Pods-VSAppCenterDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C15F3FDD2004D28800B3F308 /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		C15F400A2004D28800B3F308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57A621B70115167A184CCC0 /* Pods-VSAppCenterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5R9ERF744;
@@ -426,6 +614,7 @@
 		};
 		C15F400B2004D28800B3F308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BBFE5EDA94EEF96FD38B87 /* Pods-VSAppCenterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5R9ERF744;
@@ -439,6 +628,7 @@
 		};
 		C15F400D2004D28800B3F308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B7E0045A9856F9EA100F25 /* Pods-VSAppCenterDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		C15F400E2004D28800B3F308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFFDBC72D6A721CF95AB2B5 /* Pods-VSAppCenterDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		C15F40102004D28800B3F308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10A1412F165550F04CDD71A /* Pods-VSAppCenterDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J5R9ERF744;
@@ -483,6 +675,7 @@
 		};
 		C15F40112004D28800B3F308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC9F4F95C2D71B524B420428 /* Pods-VSAppCenterDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J5R9ERF744;
